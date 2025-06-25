@@ -1,3 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&display=swap');
 
 body {font-family: 'Schibsted Grotesk', sans-serif;}
+
+table, tr, th, td, caption {
+    border: 1px solid #333;
+    border-collapse: collapse; /* lines between cells merge into 1. to avoid this, use border collapse separate */
+    padding: 0.5rem;
+}
+
+tr:nth-child(even) { /* every second element has different background color set */
+    background-color: rgb(221, 221, 221);
+}
+
+td:first-child {
+    text-align: center;
+}
+
+td:last-child {
+    font-style: italic;
+}
+
+td {
+    padding: 1rem
+}
