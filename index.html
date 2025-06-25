@@ -8,14 +8,18 @@
   </head>
   <body>
     <h1>Tables in HTML</h1>
-    <hr />
-
+    <hr>
     <table>
-        <caption>My Daily Schedule</caption>
-      <tr>
-        <th>Time</th>
-        <th>Activity</th>
-      </tr>
+      <caption>
+        My Daily Schedule
+      </caption>
+      <thead>
+        <tr>
+          <th>Time</th>
+          <th>Activity</th>
+        </tr>
+      </thead>
+      <tbody>
       <tr>
         <td>
           <time datetime="08:00">8am</time>-<time datetime="11:00">11am</time>
@@ -42,6 +46,7 @@
       <tr>
         <td>Sleep</td>
       </tr>
+      </tbody>
     </table>
   </body>
 </html>
