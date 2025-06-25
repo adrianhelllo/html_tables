@@ -24,4 +24,5 @@ table {
     border-collapse: separate;
     /* the following only works with border collapse set to separate */
     border-spacing: 1rem;
+    border: none;
 }
